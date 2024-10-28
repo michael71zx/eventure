@@ -1,0 +1,42 @@
+2024-08-16 14:56:11,010 INFO 15180 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 14:56:11,010 INFO 15180 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 14:56:11,010 INFO 15180 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 15:19:52,184 INFO 18252 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 15:19:52,184 INFO 18252 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 15:19:52,184 INFO 18252 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 15:19:52,747 INFO 11216 [Timer] D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47407257ms at 2024-08-17 04:30:00.004
+2024-08-16 15:19:52,747 INFO 11216 [Timer] D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 31207253ms at 2024-08-17 00:00:00.000
+2024-08-16 15:19:52,747 INFO 11216 [Timer] D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 31208253ms at 2024-08-17 00:00:01.000
+2024-08-16 15:52:29,879 INFO 27612 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 15:52:29,879 INFO 27612 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 15:52:29,879 INFO 27612 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 16:13:11,251 INFO 28848 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 16:13:11,251 INFO 28848 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 16:13:11,251 INFO 28848 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 16:13:42,175 INFO 13532 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 16:13:42,175 INFO 13532 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 16:13:42,175 INFO 13532 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 19:26:05,511 INFO 25900 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 19:26:05,511 INFO 25900 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 19:26:05,511 INFO 25900 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 19:26:06,118 INFO 11968 [Timer] D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 32633885ms at 2024-08-17 04:30:00.003
+2024-08-16 19:26:06,119 INFO 11968 [Timer] D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 16433882ms at 2024-08-17 00:00:00.001
+2024-08-16 19:26:06,119 INFO 11968 [Timer] D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 16434881ms at 2024-08-17 00:00:01.000
+2024-08-16 23:00:49,303 INFO 36572 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 23:00:49,303 INFO 36572 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 23:00:49,303 INFO 36572 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 23:00:58,348 INFO 19204 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 23:00:58,348 INFO 19204 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 23:00:58,348 INFO 19204 [egg-schedule]: register schedule D:\final_project\demo\demo\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 23:40:31,898 INFO 19820 [egg-schedule]: register schedule D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-16 23:40:31,898 INFO 19820 [egg-schedule]: register schedule D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-16 23:40:31,898 INFO 19820 [egg-schedule]: register schedule D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-16 23:40:32,695 INFO 16536 [Timer] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 17367310ms at 2024-08-17 04:30:00.004
+2024-08-16 23:40:32,695 INFO 16536 [Timer] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 1167305ms at 2024-08-17 00:00:00.000
+2024-08-16 23:40:32,695 INFO 16536 [Timer] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 1168305ms at 2024-08-17 00:00:01.000
+2024-08-17 00:00:00,015 INFO 16536 [Timer] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399987ms at 2024-08-18 00:00:00.002
+2024-08-17 00:00:00,014 INFO 19820 [Job#17238456000133839434896964001] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2024-08-17 00:00:00,017 INFO 19820 [Job#17238456000133839434896964001] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 2ms. 
+2024-08-17 00:00:01,012 INFO 19820 [Job#17238456010113839444876241001] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2024-08-17 00:00:01,017 INFO 19820 [Job#17238456010113839444876241001] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 5ms. 
+2024-08-17 00:00:01,012 INFO 16536 [Timer] D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399989ms at 2024-08-18 00:00:01.001

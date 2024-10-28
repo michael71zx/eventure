@@ -1,0 +1,90 @@
+2024-08-17 00:04:37,473 ERROR 19820 [-/::1/-/1ms POST /api/user/login] nodejs.InternalServerError: Captcha has expired
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:80:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha has expired"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-17 00:04:47,913 ERROR 19820 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-17 00:07:53,201 ERROR 19820 [-/::1/-/0ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-17 00:08:07,343 ERROR 19820 [-/::1/-/1ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-17 00:09:45,421 ERROR 19820 [-/::1/-/3ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:90:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-17 00:10:15,589 ERROR 19820 [-/::1/-/1ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+

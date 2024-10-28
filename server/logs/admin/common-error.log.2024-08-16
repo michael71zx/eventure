@@ -1,0 +1,421 @@
+2024-08-16 15:29:55,780 ERROR 18252 [-/::1/-/149ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:90:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 18252
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 15:30:53,003 ERROR 18252 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 18252
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 15:30:53,316 ERROR 18252 [-/::1/-/1ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 18252
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 15:31:03,225 ERROR 18252 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 18252
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 15:34:01,313 ERROR 18252 [-/::1/-/3ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:90:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 18252
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 15:52:53,732 ERROR 27612 [-/undefined/-/2080ms POST /api/send/email] Email sending failed
+2024-08-16 15:52:53,734 ERROR 27612 [-/undefined/-/2083ms POST /api/send/email] nodejs.InternalServerError: Email sending failed (uncaughtException throw 1 times on pid:27612)
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at D:\final_project\demo\demo\server\app\extend\helper.js:19:31
+    at D:\final_project\demo\demo\server\node_modules\nodemailer\lib\mailer\index.js:230:21
+    at D:\final_project\demo\demo\server\node_modules\nodemailer\lib\smtp-transport\index.js:283:36
+    at SMTPConnection._actionAUTHComplete (D:\final_project\demo\demo\server\node_modules\nodemailer\lib\smtp-connection\index.js:1577:20)
+    at SMTPConnection.<anonymous> (D:\final_project\demo\demo\server\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)
+    at SMTPConnection._processResponse (D:\final_project\demo\demo\server\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)
+    at SMTPConnection._onData (D:\final_project\demo\demo\server\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)
+    at SMTPConnection._onSocketData (D:\final_project\demo\demo\server\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:514:28)
+
+pid: 27612
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 16:26:54,775 ERROR 13532 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 16:39:22,963 ERROR 13532 [-/::1/-/1ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 18:10:58,869 ERROR 13532 [-/::1/-/8ms POST /api/user/login] nodejs.InternalServerError: Captcha has expired
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:80:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha has expired"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 18:11:09,583 ERROR 13532 [-/::1/-/7ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:90:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 18:52:52,761 ERROR 13532 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 18:58:55,645 ERROR 13532 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:95:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 18:59:07,724 ERROR 13532 [-/::1/-/3ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:95:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 18:59:15,025 ERROR 13532 [-/::1/-/1ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\demo\demo\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\demo\demo\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 13532
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 19:59:46,106 ERROR 25900 [-/::1/-/4ms POST /api/send/email] nodejs.InternalServerError: This email is already registered
+    at Object.throw (D:\final_project\demo\demo\server\node_modules\koa\lib\context.js:97:11)
+    at SendEmailService.send (D:\final_project\demo\demo\server\app\service\sendEmail.js:23:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SendEmailController.send (D:\final_project\demo\demo\server\app\controller\sendEmail.js:15:9)
+    at async errorHandler (D:\final_project\demo\demo\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\demo\demo\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\demo\demo\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "This email is already registered"
+pid: 25900
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:42:01,891 ERROR 19820 [-/::1/-/220ms POST /api/send/email] nodejs.InternalServerError: This email is already registered
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at SendEmailService.send (D:\final_project\final_project_xin_zhang\eventure\server\app\service\sendEmail.js:23:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SendEmailController.send (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\sendEmail.js:15:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "This email is already registered"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:42:54,455 ERROR 19820 [-/::1/-/4ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:43:00,392 ERROR 19820 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:43:05,079 ERROR 19820 [-/::1/-/5ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:95:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:43:18,380 ERROR 19820 [-/::1/-/2ms POST /api/user/login] nodejs.InternalServerError: Captcha error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:84:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Captcha error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:44:44,998 ERROR 19820 [-/::1/-/4ms POST /api/user/create] nodejs.InternalServerError: User already exists
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.create (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:59:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.create (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:26:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "User already exists"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:54:01,177 ERROR 19820 [-/::1/-/4ms DELETE /api/activity/66bfca47dc9675612996d874] nodejs.InternalServerError: Activity does not exist
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at ActivityService.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\service\activity.js:197:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ActivityController.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\activity.js:50:9)
+    at async jwtMiddleware (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\jwt.js:49:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+message: "Activity does not exist"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:54:12,738 ERROR 19820 [-/::1/-/4ms DELETE /api/activity/66bfca1fdc9675612996d86e] nodejs.InternalServerError: Activity does not exist
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at ActivityService.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\service\activity.js:197:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ActivityController.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\activity.js:50:9)
+    at async jwtMiddleware (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\jwt.js:49:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+message: "Activity does not exist"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:54:30,868 ERROR 19820 [-/::1/-/4ms DELETE /api/activity/66bfca1fdc9675612996d86e] nodejs.InternalServerError: Activity does not exist
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at ActivityService.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\service\activity.js:197:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ActivityController.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\activity.js:50:9)
+    at async jwtMiddleware (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\jwt.js:49:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+message: "Activity does not exist"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:54:32,249 ERROR 19820 [-/::1/-/4ms DELETE /api/activity/66bfca47dc9675612996d874] nodejs.InternalServerError: Activity does not exist
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at ActivityService.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\service\activity.js:197:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ActivityController.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\activity.js:50:9)
+    at async jwtMiddleware (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\jwt.js:49:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+message: "Activity does not exist"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:54:43,726 ERROR 19820 [-/::1/-/4ms DELETE /api/activity/66bfca1fdc9675612996d86e] nodejs.InternalServerError: Activity does not exist
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at ActivityService.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\service\activity.js:197:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ActivityController.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\activity.js:50:9)
+    at async jwtMiddleware (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\jwt.js:49:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+message: "Activity does not exist"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:54:44,931 ERROR 19820 [-/::1/-/4ms DELETE /api/activity/66bfca47dc9675612996d874] nodejs.InternalServerError: Activity does not exist
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at ActivityService.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\service\activity.js:197:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ActivityController.destroy (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\activity.js:50:9)
+    at async jwtMiddleware (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\jwt.js:49:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+message: "Activity does not exist"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+
+2024-08-16 23:57:14,286 ERROR 19820 [-/::1/-/3ms POST /api/user/login] nodejs.InternalServerError: Username or password error
+    at Object.throw (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\koa\lib\context.js:97:11)
+    at UserService.login (D:\final_project\final_project_xin_zhang\eventure\server\app\service\user.js:90:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\final_project\final_project_xin_zhang\eventure\server\app\controller\user.js:37:9)
+    at async errorHandler (D:\final_project\final_project_xin_zhang\eventure\server\app\middleware\error_handler.js:10:13)
+    at async D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\final_project\final_project_xin_zhang\eventure\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+message: "Username or password error"
+pid: 19820
+hostname: LAPTOP-7UAF6K27
+

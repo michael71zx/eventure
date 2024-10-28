@@ -1,0 +1,658 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "w",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "h",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/user/captcha/:w/:h",
+    "regexp": "/^\\/api\\/user\\/captcha\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/user/create",
+    "regexp": "/^\\/api\\/user\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/user/login",
+    "regexp": "/^\\/api\\/user\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/user/index",
+    "regexp": "/^\\/api\\/user\\/index(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/user/info",
+    "regexp": "/^\\/api\\/user\\/info(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/user/logout",
+    "regexp": "/^\\/api\\/user\\/logout(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/user/status",
+    "regexp": "/^\\/api\\/user\\/status(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/send/email",
+    "regexp": "/^\\/api\\/send\\/email(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/user/edit",
+    "regexp": "/^\\/api\\/user\\/edit(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/user/update/:id",
+    "regexp": "/^\\/api\\/user\\/update\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/user/delete/:id",
+    "regexp": "/^\\/api\\/user\\/delete\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/user/reset/:id",
+    "regexp": "/^\\/api\\/user\\/reset\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/user/admin/create",
+    "regexp": "/^\\/api\\/user\\/admin\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "leaders",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/leader",
+    "regexp": "/^\\/api\\/leader(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "leaders",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/leader",
+    "regexp": "/^\\/api\\/leader(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "leader",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/leader/:id",
+    "regexp": "/^\\/api\\/leader\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "leader",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/leader/:id",
+    "regexp": "/^\\/api\\/leader\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_leader",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/leader/:id",
+    "regexp": "/^\\/api\\/leader\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "participants",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/participant",
+    "regexp": "/^\\/api\\/participant(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "participants",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/participant",
+    "regexp": "/^\\/api\\/participant(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "participant",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/participant/:id",
+    "regexp": "/^\\/api\\/participant\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "participant",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/participant/:id",
+    "regexp": "/^\\/api\\/participant\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_participant",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/participant/:id",
+    "regexp": "/^\\/api\\/participant\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "activities",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/activity",
+    "regexp": "/^\\/api\\/activity(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "activities",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/activity",
+    "regexp": "/^\\/api\\/activity(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "activity",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/activity/:id",
+    "regexp": "/^\\/api\\/activity\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "activity",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/activity/:id",
+    "regexp": "/^\\/api\\/activity\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_activity",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/activity/:id",
+    "regexp": "/^\\/api\\/activity\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/activity/get/upcoming",
+    "regexp": "/^\\/api\\/activity\\/get\\/upcoming(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "tasks",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/task",
+    "regexp": "/^\\/api\\/task(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "tasks",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/task",
+    "regexp": "/^\\/api\\/task(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "task",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/task/:id",
+    "regexp": "/^\\/api\\/task\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "task",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/task/:id",
+    "regexp": "/^\\/api\\/task\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_task",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/task/:id",
+    "regexp": "/^\\/api\\/task\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtMiddleware",
+      "wrappedController"
+    ]
+  }
+]
